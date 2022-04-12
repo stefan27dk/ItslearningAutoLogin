@@ -1,0 +1,51 @@
+{
+    "manifest_version": 2,
+    "name": "ItsLearningAutoLogin",
+    "version": "1.1",
+    "description": "AutoLogin itslearning ",
+ 
+     "icons":
+    {
+        "128": "itsAutoLog.png",
+        "48": "itsAutoLog.png",
+        "16": "itsAutoLog.png"
+    },
+
+    "browser_action": {
+      "default_icon": "itsAutoLog.png",
+      "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab",
+         "storage",
+         "https://*/*",
+         "http://*/*",
+         "tabs",
+         "management",
+         "webNavigation",
+         "webRequest",
+         "unlimitedStorage",
+         "ttsEngine",
+         "tts",
+         "topSites", 
+         "pageCapture"
+
+
+
+      ],
+
+
+
+      "content_scripts": [
+        {
+            "matches": ["*://*.via.itslearning.com/index.aspx?SessionExpired=0"],
+            "js": ["/content_script.js"]
+        },
+        {
+          "matches": ["*://*.login6.via.dk/logon/LogonPoint/tmindex.html"],
+          "js": ["/content_via_login.js"]
+        }
+    ]
+      
+  }
