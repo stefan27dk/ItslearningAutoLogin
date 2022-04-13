@@ -7,6 +7,12 @@ Chrome extension - Chrome, Brave, Opera, Firefox etc.
 **If VIA or Itslearning change their login webpage code than the extension may not work and needs to be updated**
 
 
+
+
+
+
+
+
 **How it works:**
 
 This extension works only with VIA login for itslearning - It can be modified to work with other external authentication providers by litle editing.
@@ -16,6 +22,10 @@ This extension works only with VIA login for itslearning - It can be modified to
 4. The Extension waits till the page is loaded, than enters the credentials that you have provided - (saved in the local storage)
 5. Than triggers the via login button 
 6. Than you are logget in
+
+
+
+
 
 
 
