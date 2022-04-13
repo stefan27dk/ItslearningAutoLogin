@@ -6,7 +6,9 @@ Chrome extension - Chrome, Brave, Opera, Firefox etc.
 
 **If VIA or Itslearning change their login webpage code than the extension may not work and needs to be updated**
 
+
 **How it works:**
+
 This extension works only with VIA login for itslearning - It can be modified to work with other external authentication providers by litle editing.
 1. Checks if you are logget out of itslearning
 2. If you are logget out it tries to log you in, by simulating clicking on the login button (by executing the script that the login button executes when you click it)
