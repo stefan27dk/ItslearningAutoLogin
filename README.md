@@ -53,7 +53,7 @@ This extension works only with VIA login for itslearning - It can be modified to
 5. Click on Load Unpacked
 6. Find and select the folder (the extension folder) - the one which you extracted after downloading 
 7. CLick on ![image](https://user-images.githubusercontent.com/62241807/163223845-d8b2b6fa-b3dd-489e-b82f-3b32b73ed95a.png)
-8. Type your username & passowrd than save - username and password are stored in local storage - (if you clear the broweser cashe the login will be deleted and you will need to type it again)
+8. Type your username & passowrd than save - username and password are stored in the local storage - (if you clear the broweser cashe the login will be deleted and you will need to type it again)
 9. Click on Save
 10. And Click on Enable
 
