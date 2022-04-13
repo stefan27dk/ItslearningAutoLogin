@@ -44,4 +44,4 @@ This extension works only with VIA login for itslearning - It can be modified to
 ![image](https://user-images.githubusercontent.com/62241807/163228717-53845c0e-b4f0-41df-91a3-a1b05f049961.png)
 
 ![image](https://user-images.githubusercontent.com/62241807/163222113-9822fc31-ce21-415d-8e56-81ab181054af.png)
-![image](https://user-images.githubusercontent.com/62241807/163222613-be7df061-7a55-4a75-995a-9ba6be865d39.png)
+![image](https://user-images.githubusercontent.com/62241807/163229213-b90cbeab-e3e3-4196-bace-db790257b19d.png)
