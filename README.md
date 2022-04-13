@@ -1,5 +1,13 @@
 # ItslearningAutoLogin
 
+![image](https://user-images.githubusercontent.com/62241807/163222113-9822fc31-ce21-415d-8e56-81ab181054af.png)
+
+</br>
+</br>
+
+</br>
+
+
 Itslearning autoLogin extension for VIA - University Itslearning
 
 Chrome extension - Chrome, Brave, Opera, Firefox etc.
@@ -8,6 +16,10 @@ Chrome extension - Chrome, Brave, Opera, Firefox etc.
 
 
 
+</br>
+</br>
+
+</br>
 
 
 
@@ -26,7 +38,10 @@ This extension works only with VIA login for itslearning - It can be modified to
 
 
 
+</br>
+</br>
 
+</br>
 
 
 **How to Install:**
@@ -40,6 +55,12 @@ This extension works only with VIA login for itslearning - It can be modified to
 8. Type your username & passowrd than save - username and password are stored in local storage - (if you clear the broweser cashe the login will be deleted and you will need to type it again)
 9. Click on Save
 10. And Click on Enable
+
+
+</br>
+</br>
+
+</br>
 
 ![image](https://user-images.githubusercontent.com/62241807/163228717-53845c0e-b4f0-41df-91a3-a1b05f049961.png)
 
