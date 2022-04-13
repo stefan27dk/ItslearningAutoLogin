@@ -1,6 +1,7 @@
 # ItslearningAutoLogin
 
 Itslearning autoLogin extension for VIA - University Itslearning
+
 Chrome extension - Chrome, Brave, Opera, Firefox etc.
 
 If VIA or Itslearning change their webpage code than the extension may not work and needs to be updated
