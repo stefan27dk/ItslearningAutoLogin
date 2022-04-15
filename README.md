@@ -46,7 +46,7 @@ This extension works only with VIA login for itslearning - It can be modified to
 
 
 **How to Install:**
-1. Download and extract it somewere ex. documents.
+1. Download and extract it somewhere ex. documents.
 2. Open chrome or other browser that suports chrome extensions
 3. Go to extensions
 4. Click enable developer mode
