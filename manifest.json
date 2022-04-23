@@ -35,12 +35,16 @@
 
       ],
 
-
+     
 
       "content_scripts": [
         {
             "matches": ["*://*.via.itslearning.com/index.aspx?SessionExpired=0"],
             "js": ["/content_script.js"]
+        },
+        {
+          "matches": ["*://*.via.itslearning.com/index.aspx"],
+          "js": ["/content_script.js"]
         },
         {
           "matches": ["*://*.login6.via.dk/logon/LogonPoint/tmindex.html"],
