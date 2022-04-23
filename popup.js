@@ -3,8 +3,27 @@
 
 
 
-// ---------------- Button Enabled Disabled -- Style and Text ----------------------
 
+
+
+
+
+// ------ BUTTON STATE ENABLED -  DISABLED ----------------------------------------------------------
+var toggleONOFF = true; //Enable / Disable Extension
+var onOFFButton = document.getElementById('on-off-extension'); // Get the On-Off  Button
+
+// Get Extension State Enabled / Disabled
+chrome.storage.sync.get(['enableExtAutoLoginIts'], result => {
+    toggleONOFF = result.enableExtAutoLoginIts;
+    // onOFFButton.textContent = toggleONOFF ? 'Disable' : 'Enable'; // Change onOFFButton - Text
+    toggleButtonState();
+});
+
+
+
+
+
+// ---------------- Button Enabled Disabled -- Style and Text ----------------------
 function toggleButtonState()
 {
     if(toggleONOFF == false)
@@ -21,21 +40,6 @@ function toggleButtonState()
     }
 }
 
-
-
-
-
-
-// ------ BUTTON STATE ENABLED -  DISABLED ----------------------------------------------------------
-var toggleONOFF = true; //Enable / Disable Extension
-var onOFFButton = document.getElementById('on-off-extension'); // Get the On-Off  Button
-
-// Get Extension State Enabled / Disabled
-chrome.storage.sync.get(['enableExtAutoLoginIts'], result => {
-    toggleONOFF = result.enableExtAutoLoginIts;
-    // onOFFButton.textContent = toggleONOFF ? 'Disable' : 'Enable'; // Change onOFFButton - Text
-    toggleButtonState();
-});
 
 
 

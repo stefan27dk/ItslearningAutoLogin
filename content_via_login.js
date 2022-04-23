@@ -41,11 +41,6 @@ window.onload = function() {
 
  
 
- 
-
-
-
-
 
 // ::::::::::::::::::: Working Code ::::::::::::::::::::::::::::::::::::
 function autoLogInIts()
@@ -55,7 +50,7 @@ function autoLogInIts()
     { 
          if (result.enableExtAutoLoginIts) 
          { 
-            autoFillSimuKeypress(); 
+            autoFillData(); 
          }     
          
              //================================ Extension Disabled ================================================================
@@ -72,15 +67,10 @@ function autoLogInIts()
 
  
  
- 
-
-function autoFillSimuKeypress()
+// AutoFill Data --------------------------------------------------------------------------------------------------------------------
+function autoFillData()
 {
   chrome.storage.sync.get(['loginIts'], result => {
-    // toggleONOFF = result.enableExtAutoLoginIts;
-    // onOFFButton.textContent = toggleONOFF ? 'Disable' : 'Enable'; // Change onOFFButton - Text
-    // let av = document.getElementById('login');
-    // console.log(av);
     document.getElementById('login').value = result.loginIts.userNameIts;
     document.getElementById('passwd').value = result.loginIts.passwordIts;
     document.getElementById('nsg-x1-logon-button').click();
