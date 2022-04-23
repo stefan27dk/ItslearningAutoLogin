@@ -31,10 +31,10 @@ Chrome extension - Chrome, Brave, Opera, Firefox etc.
 This extension works only with VIA login for itslearning - It can be modified to work with other external authentication providers by litle editing.
 1. Checks if you are logget out of itslearning
 2. If you are logget out it tries to log you in, by simulating clicking on the login button (by executing the script that the login button executes when you click it)
-3. Than itslearning redirects you to VIAs login page
+3. Then itslearning redirects you to VIAs login page
 4. The Extension waits till the page is loaded, than enters the credentials that you have provided - (saved in the local storage)
-5. Than triggers the via login button 
-6. Than you are logget in
+5. Then triggers the via login button 
+6. Then you are logget in
 
 
 
