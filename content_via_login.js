@@ -1,45 +1,20 @@
 
-// window.addEventListener('load', function () {
-//   autoLogInIts(); // Runs on Enable / Disable Extension
-// });
+
+
+// window.onload = function() {
+
+//   setTimeout(autoLogInIts, 500); // Runs on Enable / Disable Extension
+//   setTimeout(autoLogInIts, 1000);
+// };
 
 
 
-window.onload = function() {
+var observer = new MutationObserver(function (m) {
+  if (document.getElementById('login'))
+  autoLogInIts();
+});
 
-  setTimeout(autoLogInIts, 500); // Runs on Enable / Disable Extension
-  setTimeout(autoLogInIts, 1000);
-};
-
-
-// document.addEventListener("DOMContentLoaded", function(event){
-//   autoLogInIts(); // Runs on Enable / Disable Extension
-
-// });
-
-// document.onreadystatechange = function () {
-//   if (document.readyState == "complete") {
-//     autoLogInIts(); // Runs on Enable / Disable Extension
-//   }
-// }
-
-
-
-// // Observer for path changed
-// let lastUrl = location.href; 
-// new MutationObserver(() => 
-// {
-//   const url = location.href;
-//   if (url !== lastUrl) 
-//   {
-//     lastUrl = url;
-//     autoLogInIts(); // Runs on Path Changed 
-//   }
-// }).observe(document, {subtree: true, childList: true});
-
-
-
- 
+observer.observe(document.body, {childList: true});
 
 
 // ::::::::::::::::::: Working Code ::::::::::::::::::::::::::::::::::::
@@ -84,5 +59,40 @@ function autoFillData()
 
 
 
-
  
+
+
+
+
+
+// window.addEventListener('load', function () {
+//   autoLogInIts(); // Runs on Enable / Disable Extension
+// });
+
+
+
+// document.addEventListener("DOMContentLoaded", function(event){
+//   autoLogInIts(); // Runs on Enable / Disable Extension
+
+// });
+
+// document.onreadystatechange = function () {
+//   if (document.readyState == "complete") {
+//     autoLogInIts(); // Runs on Enable / Disable Extension
+//   }
+// }
+
+
+
+// // Observer for path changed
+// let lastUrl = location.href; 
+// new MutationObserver(() => 
+// {
+//   const url = location.href;
+//   if (url !== lastUrl) 
+//   {
+//     lastUrl = url;
+//     autoLogInIts(); // Runs on Path Changed 
+//   }
+// }).observe(document, {subtree: true, childList: true});
+

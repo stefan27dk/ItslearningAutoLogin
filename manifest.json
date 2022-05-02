@@ -29,13 +29,12 @@
          "ttsEngine",
          "tts",
          "topSites", 
-         "pageCapture"
-
-
-
+         "pageCapture" 
       ],
 
-     
+
+  
+
 
       "content_scripts": [
         {

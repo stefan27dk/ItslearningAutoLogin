@@ -29,7 +29,7 @@ function autoLogInIts()
          { 
            if(window.location="via.itslearning.com/index.aspx?SessionExpired=0")
            {
-              window.location.href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$federatedLoginButtons$ctl00$ctl00','')";
+              window.location.href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$federatedLoginButtons$ctl00$ctl00','')"; 
            } 
          } 
                   
@@ -46,8 +46,4 @@ function autoLogInIts()
 
 
  
-     
-  
-
-  
-
+ 
